@@ -1,0 +1,28 @@
+{
+  "name": "peerbird",
+  "version": "0.0.1",
+  "author": "Timothy D Meadows II <timothy@timothymeadows.com>",
+  "description": "Peerbird is an attempt to create a distributed peer to peer network in the browser that can provide a method for controlling who is in charge of storing user data in a complex website. While also offloading resource and asset loading of user created content onto users, and users that the user has approved.",
+  "contributors": [
+    {
+      "name": "Timothy D Meadows II",
+      "email": "timothy@timothymeadows.com"
+    }
+  ],
+  "main": "./peernode.js",
+  "keywords": [
+    "peer2peer",
+    "peering",
+    "distrubuted"
+  ],
+  "dependencies": {
+    "express": "^4.0.0",
+    "http-proxy": "^1.16.2",
+    "peer": "^0.2.8"
+  },
+  "noAnalyze": true,
+  "license": "MIT",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  }
+}
