@@ -1,10 +1,10 @@
 # peerbird.js
-#Installing
-#Node.js
+# Installing
+# Node.js
 ```bash
   npm install peerbird --save
 ```
-#Browser
+# Browser
 ```html
 <script src="peerbird.js"></script>
 ```
